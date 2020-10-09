@@ -16,6 +16,7 @@ function play(){
     let playBtn = document.getElementById("play-button");
     pauseBtn.style.display = 'inline';
     playBtn.style.display = 'none';
+    Tone.context.resume();
     Tone.Transport.start();
     playing = true;
 
