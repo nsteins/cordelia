@@ -38,13 +38,16 @@
 }
 
 body {
-    background: #d4d4d4
+    background: #000000;
+    position: relative;
+    overflow:hidden;
   }
 
   .button {
     width: 48px;
     height: 48px;
     cursor: pointer;
+    fill: #3c3c3c;
   }
   .button:hover {
     fill: white;
@@ -64,23 +67,91 @@ body {
   }
 
 .welcome {
-  margin: auto;
-  width: fit-content;
-  top: 20;
+  /* margin: auto; */
+  max-width: 540px;
+  /* top: 20; */
   color: #363636;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 11;
+
 }
+
+
+/* Cordelia */
 
 h1 {
-  font-family: 'DM Sans';
-  font-size: 3em;
-  font-weight: 400;
+  /* position: absolute;
+  width: 490px;
+  height: 113px;
+  left: 278px;
+  top: 246px; */
+
+  font-family: Sorts Mill Goudy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 0px;
+
+  color: #E5E5E5;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-b {
-  color: #000000;
+/* Welcome to */
+.welcome-text {
+
+  /* position: absolute;
+  width: 111px;
+  height: 32px;
+  left: 278px;
+  top: 236px; */
+
+  font-family: Sorts Mill Goudy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0px;
+
+  color: #E5E5E5;
+
 }
+
+/* This is a place for focus and relaxation—where sounds and color come  together to balance and refresh. Pay attention to your breath, body, and mind. Focus on what you need and what the universe has to offer. begin */
 
 p {
-  font-family: 'Roboto';
-  font-size: 1.2em;
+  /* position: absolute;
+  width: 541px;
+  height: 218px;
+  left: 278px;
+  top: 385px; */
+
+  font-family: Sorts Mill Goudy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+
+  color: #E5E5E5;
 }
+  
+
+a{
+    font-family: Sorts Mill Goudy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+
+    text-decoration: underline;
+
+    color: #E5E5E5;
+  }
+a:hover {
+    color: white;
+    font-weight: bold;
+  }

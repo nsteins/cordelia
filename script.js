@@ -1,14 +1,4 @@
-$("#play-button")
-  .on("click", function() {
-    if (playing){
-        $(this).find("use").attr("xlink:href", "#play-button-shape");
-        pause();
-    }
-    else{
-        $(this).find("use").attr("xlink:href", "#pause-button-shape");
-        play();
-    }
-  });
+
 
 
 function play(){
